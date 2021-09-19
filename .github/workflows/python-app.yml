@@ -10,7 +10,7 @@ on:
     branches: [ master ]
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron: '10,20,30 0-23 * * *'
+    - cron: '12,20,30 0-23 * * *'
 
 jobs:
   build:
@@ -37,4 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         python py_test.py
-        python hell0_ghaction.py
+        python hello_ghaction.py
