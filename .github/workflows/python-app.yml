@@ -37,3 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         python py_test.py
+        python hell0_ghaction.py
